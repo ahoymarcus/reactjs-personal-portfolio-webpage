@@ -4,9 +4,9 @@ import ProjectItem from './ProjectItem';
 
 
 const ProjectList = ({ type, list }) => {
-	// const renderItem = list.map((item, index) => {
-		// return <ProjectItem key={index} {...item} />
-	// });
+	const renderItem = list.map((item, index) => {
+		return <ProjectItem key={index} {...item} />
+	});
 	
 	
 	return (
@@ -17,7 +17,7 @@ const ProjectList = ({ type, list }) => {
 			<h3>{type} projects</h3>
 			
 			<div className="projects-container-grid">
-				{/*renderItem()*/}
+				{renderItem}
 			</div>
 		</div>		
 	);

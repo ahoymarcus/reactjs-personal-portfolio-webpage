@@ -1,9 +1,9 @@
-let frontendProjects: [
+export let frontendProjects = [
 	{
 		title: 'Rocket Launches App - React-JS, UseContext and React-Router-Dom',
 		url_repository: 'https://github.com/ahoymarcus/reactjs-rocket-launches-app',
 		url_app: 'https://reactjs-rocket-launches-app.netlify.app/',
-		image: '/images/frontend/reactjs-rocket-launches-app',
+		image: '/images/frontend/reactjs-rocket-launches-app.png',
 		description: '',
 		functionalities: '',
 	},
@@ -115,7 +115,7 @@ let frontendProjects: [
 		title: 'Course-Listapp - Angular 8, Typescript e Backend Node-JS',
 		url_repository: 'https://github.com/ahoymarcus/reactjs-dev-cinemapp',
 		url_app: 'https://github.com/ahoymarcus/basic-angular8-dio',
-		image: '/images/frontend/angular-8-course-list-app.png',
+		image: '/images/frontend/angular-8-course-list-app-02.png',
 		description: '',
 		functionalities: '',
 	},
@@ -123,7 +123,7 @@ let frontendProjects: [
 		title: 'Birthday Reminder App - React-JS',
 		url_repository: 'https://github.com/ahoymarcus/reactjs-birthday-reminder',
 		url_app: 'https://ahoymarcus-reactjs-birthday-reminder.netlify.app/',
-		image: '/images/frontend/v',
+		image: '/images/frontend/birthday-remainder-project-02.png',
 		description: '',
 		functionalities: '',
 	},

@@ -5,11 +5,11 @@ import './App.css';
 import Navbar from './components/Navbar';
 import ProjectList from './components/ProjectList';
 
-import frontendProjects from './data/frontendProjects';
-import backendProjects from './data/backendProjects';
+import { frontendProjects } from './data/frontendProjects';
+import { backendProjects } from './data/backendProjects';
 
-console.log(typeof frontendProjects);
-console.log(typeof backendProjects);
+console.log(frontendProjects instanceof Array);
+console.log(backendProjects instanceof Array);
 
 
 function App() {

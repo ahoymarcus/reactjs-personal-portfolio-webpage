@@ -1,4 +1,4 @@
-let webdesignProjects: [
+export let webdesignProjects = [
 	{
 		title: 'Musica Erudita',
 		url_repository: 'https://github.com/ahoymarcus/musica-erudita',

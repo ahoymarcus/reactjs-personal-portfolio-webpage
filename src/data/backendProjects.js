@@ -1,4 +1,4 @@
-let backendProjects: [
+export let backendProjects = [
 	{
 		title: 'Rocket Launches API - Node-JS e JWT',
 		url_repository: 'https://github.com/ahoymarcus/expressjs-rocket-launches-api',
