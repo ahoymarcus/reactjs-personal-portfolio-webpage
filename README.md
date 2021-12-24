@@ -37,6 +37,4 @@ R:
 <br />
 <br />
 
-[freecodecamp.org](https://www.freecodecamp.org/)
 
-[^1]:freecodecamp.org 

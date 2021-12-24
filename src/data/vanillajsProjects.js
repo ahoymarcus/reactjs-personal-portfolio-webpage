@@ -40,7 +40,7 @@ export let vanillaJSProjects = [
 		functionalities: '',
 	},
 	{
-		title: 'Video Section App - Vanilla Javascript<',
+		title: 'Video Section App - Vanilla Javascript',
 		urlRepository: 'https://github.com/ahoymarcus/vanilla-javascript-video-section-app',
 		urlApp: 'https://vanilla-javascript-video-section.netlify.app/',
 		image: '/images/vanilla-js/vanilla-javascript-video-section-app.png',
@@ -104,12 +104,12 @@ export let vanillaJSProjects = [
 		functionalities: '',
 	},
 	{
-		title: 'Genius Game App - HTML, CSS Grid e Javascript',
+		title: 'Genius Game App',
 		urlRepository: 'https://github.com/ahoymarcus/html-javascript-genius-gameapp-dio',
 		urlApp: '',
 		image: '/images/vanilla-js/genius-gameapp-html-css-grid-e-Javascript.png',
 		description: '',
-		functionalities: '',
+		functionalities: 'HTML, CSS Grid e Javascript',
 	},
 	{
 		title: 'Jogo da Cobrinha',

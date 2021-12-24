@@ -1,11 +1,11 @@
 export let backendProjects = [
 	{
-		title: 'Rocket Launches API - Node-JS e JWT',
+		title: 'Rocket Launches API - Node-JS',
 		urlRepository: 'https://github.com/ahoymarcus/expressjs-rocket-launches-api',
 		urlApp: '',
 		image: '/images/backend/nodejs-rocket-launches-api.png',
 		description: '',
-		functionalities: '',
+		functionalities: 'JWT',
 	},
 	{
 		title: 'Job API - Node-JS, JWT e Bcryptjs',
@@ -16,7 +16,7 @@ export let backendProjects = [
 		functionalities: '',
 	},
 	{
-		title: 'Tasks Manager App - Node e Express-JS',
+		title: 'Tasks Manager App - Express-JS',
 		urlRepository: 'https://github.com/ahoymarcus/nodejs-task-manager-app',
 		urlApp: '',
 		image: '/images/backend/img-final-do-projeto-tasks-manager-app.png',
@@ -24,7 +24,7 @@ export let backendProjects = [
 		functionalities: '',
 	},
 	{
-		title: 'Store API - Node e Express-JS',
+		title: 'Store API - Express-JS',
 		urlRepository: 'https://github.com/ahoymarcus/nodejs-store-api',
 		urlApp: '',
 		image: '/images/backend/store-api-icon-big.png',
@@ -64,11 +64,11 @@ export let backendProjects = [
 		functionalities: '',
 	},
 	{
-		title: 'Encurtador de URL - NodeJS, Typescript e MongoDB',
+		title: 'Encurtador de URL - NodeJS and Typescript',
 		urlRepository: 'https://github.com/ahoymarcus/url-shortener-nodejs-typescript-dio',
 		urlApp: '',
 		image: '/images/backend/encurtador-de-url-nodejs-typescript-mongodb.png',
-		description: '',
+		description: 'MongoDB',
 		functionalities: '',
 	},
 	{
@@ -88,11 +88,11 @@ export let backendProjects = [
 		functionalities: '',
 	},
 	{
-		title: 'URL Shortener - Node-JS  - FreeCodeCamp.org',
+		title: 'URL Shortener - Node-JS',
 		urlRepository: 'https://github.com/ahoymarcus/nodejs-url-shortener-freecodecamp',
 		urlApp: '',
 		image: '/images/backend/url-shortener-microservice-rodando-no-Replit.png',
-		description: '',
+		description: 'FreeCodeCamp.org',
 		functionalities: '',
 	},
 	{
@@ -104,19 +104,19 @@ export let backendProjects = [
 		functionalities: '',
 	},
 	{
-		title: 'JavaScript Assertions Studyapp - Freecodecamp',
+		title: 'JavaScript Assertions Studyapp',
 		urlRepository: 'https://github.com/ahoymarcus/nodejs-automated-testing-app',
 		urlApp: '',
 		image: '/images/backend/javaScript-assertions-study-freecodecamp.png',
-		description: '',
+		description: 'Freecodecamp',
 		functionalities: '',
 	},
 	{
-		title: 'Authentication and Socket.io Studyapp - Node-JS - Freecodecamp',
+		title: 'Authentication and Socket.io Studyapp - Node-JS',
 		urlRepository: 'https://github.com/ahoymarcus/advanced-nodejs-freecodecamp-studyapp',
 		urlApp: '',
 		image: '/images/backend/nodejs-authentication-studyapp.png',
-		description: '',
+		description: 'Freecodecamp',
 		functionalities: '',
 	},
 	{

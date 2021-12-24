@@ -38,6 +38,10 @@ h3 {
 	text-transform: capitalize;
 }
 
+h4 {
+	font-size: 1.25rem;
+}
+
 
 .external-links-container { 
 	display: flex; 
@@ -45,7 +49,7 @@ h3 {
 }
 
 header, main {  
-	background-color: #78878cd4; /*#f7622b; rgb(152 42 42 / 30%);*/ 
+	background-color: hsl(210deg 15% 32% / 74%); /*rgb(152 42 42 / 30%); #78878cd4; /*#f7622b; */ 
 }
 
 nav#navbar { 
@@ -84,7 +88,7 @@ main #welcome-section p {
 
 main section#projects { 
 	color: #ffffffc7; 
-	padding: 5rem 4rem;
+	padding: 4rem 4rem;
 }
 
 main section#projects .projects-container-grid {
@@ -92,9 +96,36 @@ main section#projects .projects-container-grid {
 	grid-template-columns: 
 	repeat(auto-fit, minmax(320px, 1fr)); 
 	grid-gap: 4rem; 
-	width: 100%; 
+	/*width: 100%; */
 }
 
+main section#projects .project-icon {
+	width :100%;
+	height: 220px;
+	border-radius: 8px;
+	/*margin-bottom: 10px;*/
+}
+
+main section#projects .info-container {
+	background-color: #e3d6d647; /*white;*/
+}
+
+main section#projects .btn-container{
+	
+	
+	border-radius: 8px;
+}
+
+main section#projects .btn-container {
+	display: grid;
+	grid-template-columns: 1fr 0.5fr 0.5fr;
+}
+
+
+
+
+
+/*
 main section#projects .projects { 
 	margin-bottom: 30px; 
 }
@@ -108,21 +139,37 @@ main section#projects h3 {
 }
 main section#projects a { 
 	color: #6f2913; 
+	
 	/*justify-self: center;*/ 
-	background-color: #b99a7b33; 
+	/*background-color: #b99a7b33; */
+	
+/*
 	text-align: center; 
 	text-shadow: 0.5px 0.5px #ffebaa; 
 	border-radius: 8px 8px 0 0; 
 	/*border: 0.5px solid #ffebaa;*/ 
+	
+/*	
+	
 	font-family: Arial, sans-serif;
 }
 
 main section#projects img.project-icon { 
 	/*max-width: 500px;*/ 
+	
+/*	
+	
 	width: 100%; 
 	height: calc(100% - 6.8rem); 
 	border-radius: 8px 8px 0 0; 
 }
+
+
+*/
+
+
+
+
 
 main section#other-projects {
 	background-color: #e7e7b4;
