@@ -1,4 +1,4 @@
-const webdesignProjects: [
+let webdesignProjects: [
 	{
 		title: 'Musica Erudita',
 		url_repository: 'https://github.com/ahoymarcus/musica-erudita',

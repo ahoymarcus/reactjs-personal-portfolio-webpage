@@ -1,4 +1,4 @@
-const vanillaJSProjects: [
+let vanillaJSProjects: [
 	{
 		title: 'Grocery Bud App - Vanilla Javascript',
 		url_repository: 'https://github.com/ahoymarcus/vanilla-javascript-grocery-bud-app',

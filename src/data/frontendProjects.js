@@ -1,4 +1,4 @@
-const frontendProjects: [
+let frontendProjects: [
 	{
 		title: 'Rocket Launches App - React-JS, UseContext and React-Router-Dom',
 		url_repository: 'https://github.com/ahoymarcus/reactjs-rocket-launches-app',
@@ -176,7 +176,6 @@ const frontendProjects: [
 		image: '/images/frontend/cripocoins-icon.png',
 		description: '',
 		functionalities: '',
-	}nctionalities: '',
 	},
 ];
 
