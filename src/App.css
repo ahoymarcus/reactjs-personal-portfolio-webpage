@@ -20,12 +20,8 @@ a {
 	text-decoration: none; 
 }
 
-h1, h2, h3, p { 
+h1, h2 { 
 	padding: 10px; 
-}
-
-h2, h3 {
-	
 }
 
 h2 { 
@@ -33,15 +29,29 @@ h2 {
 	margin-bottom: 40px;
 	text-transform: uppercase;
 }
+
+
+h3, h4 {
+	letter-spacing: 0.25rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+}
+
 h3 { 
 	font-size: 1.7em; 
 	text-transform: capitalize;
 }
 
 h4 {
-	font-size: 1.25rem;
+	font-size: 1.2rem;
+	margin-bottom: 10px;
 }
 
+p {
+	font-size: 1.1rem;
+	line-height: 1.5;
+	text-align: justify;
+}
 
 .external-links-container { 
 	display: flex; 
@@ -60,8 +70,11 @@ nav#navbar {
 	background-color: #6f7b7e; /*#78878c; */
 	width: 100%; 
 }
-nav#navbar p { 
+nav#navbar p {
+	font-size: 2rem;
+	font-weight: 400;
 	padding-right: 40px; 
+	line-height: 2;
 }
 nav#navbar a { 
 	color: inherit; 
@@ -86,9 +99,22 @@ main #welcome-section p {
 	font-size: 1.4em; 
 }
 
+
 main section#projects { 
 	color: #ffffffc7; 
 	padding: 4rem 4rem;
+}
+
+main section#projects .projects { 
+	margin-bottom: 75px; 
+}
+main section#projects h2 { 
+	color: #ad6419; 
+	text-align: center; 
+}
+main section#projects h3 { 
+	color: #ffebaa; 
+	margin-bottom: 20px; 
 }
 
 main section#projects .projects-container-grid {
@@ -100,14 +126,15 @@ main section#projects .projects-container-grid {
 }
 
 main section#projects .project-icon {
-	width :100%;
+	width: 100%;
 	height: 220px;
 	border-radius: 8px;
 	/*margin-bottom: 10px;*/
 }
 
 main section#projects .info-container {
-	background-color: #e3d6d647; /*white;*/
+	background-color: #e3d6d647; /*hsl(212, 33%, 89%); white;*/
+	border-radius: 8px 8px 0 0;
 }
 
 main section#projects .btn-container{
@@ -119,9 +146,47 @@ main section#projects .btn-container{
 main section#projects .btn-container {
 	display: grid;
 	grid-template-columns: 1fr 0.5fr 0.5fr;
+	padding: 0.4rem 0.3rem 1rem 0.3rem;
+}
+
+main section#projects .tab-header {
+	color: #ffffffc7;
+	background-color: #9d929273; /*#e3d6d647; hsl(212, 33%, 89%);*/
+	
+	border: none;
+	text-transform: capitalize;
+	font-size: 1rem;
+	display: block;
+	cursor: pointer;
 }
 
 
+main section#projects .tab-header {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+main section#projects .tab-header a {
+	color: #933615;
+	text-transform: uppercase;
+	line-height: 1.8;
+	font-size: 1.1rem;
+	
+}
+
+main section#projects .btn:hover {
+	/*background: rgb(152 42 42 / 30%);*/
+  color: rgb(110 63 63);
+	text-shadow: 1px 1px rgb(152 42 42 / 30%);
+}
+
+
+main section#projects  .info-content {
+	border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 0.5rem 1rem 1rem;
+	line-height: 1;
+}
 
 
 
@@ -192,6 +257,12 @@ main section#contact h2 {
 	font-size: 1.9em; 
 }
 
+main section#contact p { 
+	text-align: center;
+	font-size: 1.7rem; 
+	font-weight: bold;
+}
+
 main section#contact .contact-links { 
 	display: flex; 
 	flex-direction: column;  
@@ -204,6 +275,10 @@ main section#contact .contact-links a {
 	font-weight: 800; 
 	padding: 5px; 
 }
+
+
+
+
 
 footer { 
 	color: black; 
