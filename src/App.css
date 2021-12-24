@@ -43,7 +43,7 @@ h3 {
 }
 
 h4 {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	margin-bottom: 10px;
 }
 
@@ -147,6 +147,8 @@ main section#projects .btn-container {
 	display: grid;
 	grid-template-columns: 1fr 0.5fr 0.5fr;
 	padding: 0.4rem 0.3rem 1rem 0.3rem;
+	max-height: 63.303px;
+	overflow: hidden;
 }
 
 main section#projects .tab-header {
@@ -169,25 +171,32 @@ main section#projects .tab-header {
 main section#projects .tab-header a {
 	color: #933615;
 	text-transform: uppercase;
-	line-height: 1.8;
+	line-height: 1.5;
 	font-size: 1.1rem;
-	
+}
+
+main section#projects .tab-header a:hover {
+	text-shadow: 2px 2px 1px #ffffffc7;
 }
 
 main section#projects .btn:hover {
 	/*background: rgb(152 42 42 / 30%);*/
   color: rgb(110 63 63);
-	text-shadow: 1px 1px rgb(152 42 42 / 30%);
+	text-shadow: 2px 2px 1px rgb(152 42 42 / 30%);
 }
 
 
 main section#projects  .info-content {
 	border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
-  padding: 0.5rem 1rem 1rem;
+  padding: 0.8rem 1rem 1rem;
 	line-height: 1;
 }
 
+main section#projects  .info-content p {
+	font-size: 1rem;
+	line-height: 1.2;
+}
 
 
 /*
