@@ -5,7 +5,7 @@ import ProjectItem from './ProjectItem';
 
 const ProjectList = ({ type, list }) => {
 	const renderItem = list.map((item, index) => {
-		return <ProjectItem key={index} {...item} />
+		return <ProjectItem key={index} {...item} type={type} />
 	});
 	
 	

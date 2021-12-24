@@ -7,9 +7,10 @@ import ProjectList from './components/ProjectList';
 
 import { frontendProjects } from './data/frontendProjects';
 import { backendProjects } from './data/backendProjects';
+import { vanillajsProjects } from './data/vanillajsProjects';
+import { webdesingProjects } from './data/webdesingProjects';
 
-console.log(frontendProjects instanceof Array);
-console.log(backendProjects instanceof Array);
+
 
 
 function App() {
@@ -36,8 +37,16 @@ function App() {
 					<h2>These are some of my projects</h2>
 				
 					<ProjectList type="frontend" list={frontendProjects} />
-					<ProjectList type="backend" list={backendProjects} />
-					
+					<ProjectList type="backend" list={backendProjects} />		
+				</section>
+				
+				<section 
+					id="other-projects" 
+					aria-label="Web Development Projects"
+				>
+					<h2>Other Projects</h2>
+					<p>Vanilla JavaScript and Web Desing</p>
+						
 				</section>
 				
 				

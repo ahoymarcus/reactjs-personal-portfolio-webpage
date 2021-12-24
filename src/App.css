@@ -29,7 +29,7 @@ h2, h3 {
 }
 
 h2 { 
-	font-size: 1.68em; /*2.1em; */
+	font-size: 1.85em; /*2.1em; */
 	margin-bottom: 40px;
 	text-transform: uppercase;
 }
@@ -91,7 +91,8 @@ main section#projects .projects-container-grid {
 	display: grid; 
 	grid-template-columns: 
 	repeat(auto-fit, minmax(320px, 1fr)); 
-	grid-gap: 4rem; width: 100%; 
+	grid-gap: 4rem; 
+	width: 100%; 
 }
 
 main section#projects .projects { 
@@ -122,6 +123,12 @@ main section#projects img.project-icon {
 	height: calc(100% - 6.8rem); 
 	border-radius: 8px 8px 0 0; 
 }
+
+main section#other-projects {
+	background-color: #e7e7b4;
+}
+
+
 
 main section#contact { 
 	color: black; 
