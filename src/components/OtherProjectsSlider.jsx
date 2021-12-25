@@ -21,9 +21,21 @@ const OtherProjects = ({ otherProjects }) => {
 	
 	
 	return (
-		<article className="other-projects">
-			<p>other projects</p>
-		</article>
+		<div className="other-projects">
+			<article className="other-projects-container">
+				<div class="other-project-img-container">
+					<img src={image} alt={`projeto ${title}`} className="other-project-img" />
+				</div>	
+			</article>
+			<article>
+				<h4>{title}</h4>
+				<p>{description}</p>
+				
+				<h5>Repositories:</h5>
+				<h6>{urlApp}</h6>
+				<h6>{urlRepository}</h6>
+			</article>
+		</div>
 	);
 };
 
