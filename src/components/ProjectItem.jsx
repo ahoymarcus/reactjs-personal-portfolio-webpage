@@ -36,7 +36,7 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, t
 					<h4>Tags</h4>
 					<p>
 						{tags.map((tag, index) => {
-							return <span className="tag" >{tag} </span>;
+							return <span key={index} className="tag" >{tag} </span>;
 						})}
 					</p>
 				</div>

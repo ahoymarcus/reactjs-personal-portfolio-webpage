@@ -45,7 +45,10 @@ function App() {
 					aria-label="Web Development Projects"
 				>
 					<h2>Other Projects</h2>
-					<p>Vanilla JavaScript and Web Desing</p>
+					
+					{/* Novo componte slider */}
+					
+					<h3>Vanilla JavaScript and Web Desing</h3>
 						
 				</section>
 				
