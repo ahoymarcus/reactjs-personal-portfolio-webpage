@@ -8,7 +8,8 @@ const OtherProjects = ({ otherProjects }) => {
 	const [ index, setIndex ] = useState(0);
 	
 	const { title, image, urlApp, urlRepository, description, tags } = otherProjects[index];
-		
+	
+	//console.log(tags);
 	
 	const checkNumber = (number) => {
 		if (index > otherProjects.length - 1) {
@@ -23,17 +24,26 @@ const OtherProjects = ({ otherProjects }) => {
 	return (
 		<div className="other-projects">
 			<article className="other-projects-container">
-				<div class="other-project-img-container">
+				<div class="other-projects-img-container">
 					<img src={image} alt={`projeto ${title}`} className="other-project-img" />
 				</div>	
 			</article>
-			<article>
+			<article className="other-projects-info">
 				<h4>{title}</h4>
-				<p>{description}</p>
-				
-				<h5>Repositories:</h5>
-				<h6>{urlApp}</h6>
-				<h6>{urlRepository}</h6>
+				<p>
+					{description}
+				</p>
+				<div className="tags">
+					<ul>
+						{tags.map((tag, index) => {
+							return <p key={index}>#{tag}</p>;
+						})}
+					</ul>
+				</div>
+				<div className="repositories">
+					<h6><a target="_blank" href={urlApp}>NetLify App</a></h6>
+					<h6><a target="_blank" href={urlRepository}>Github repository</a></h6>
+				</div>
 			</article>
 		</div>
 	);
