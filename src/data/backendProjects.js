@@ -5,7 +5,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/nodejs-rocket-launches-api.png',
 		description: 'Node-JS',
-		functions: 'JWT',
+		tags: 'JWT',
 	},
 	{
 		title: 'Jobs Search API',
@@ -13,7 +13,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/job-api-big-icon.png',
 		description: 'Node-JS, JWT e Bcryptjs',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'Tasks Manager App',
@@ -21,7 +21,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/img-final-do-projeto-tasks-manager-app.png',
 		description: 'Express-JS',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'Products Store API',
@@ -29,7 +29,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/store-api-icon-big.png',
 		description: 'Express-JS',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'JWT Exercise Studyapp',
@@ -37,7 +37,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/jwt-basics-studyapp-freecodecamp.org.png',
 		description: 'Node-JS',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'API with Typescript',
@@ -45,7 +45,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/rest-expressjs-typescript-dio.png',
 		description: 'Node-JS',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'API Serverless with Node-JS',
@@ -53,7 +53,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/rota-de-entrada-azure-cloud-icon.png',
 		description: '',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'Chatbot with Node-JS',
@@ -61,7 +61,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/chatbot-nodejs-icon.png',
 		description: '',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'Encurtador de URL',
@@ -69,7 +69,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/encurtador-de-url-nodejs-typescript-mongodb.png',
 		description: 'NodeJS, Typescript and MongoDB',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'API with Typescript',
@@ -77,7 +77,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/API-REST-com-Node-e-Express-JS.png',
 		description: 'Express-JS',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'Timestamp Microservice',
@@ -85,7 +85,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/timestamp-microservice-rodando-no-Replit.png',
 		description: 'Node-JS',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'URL Shortener - Node-JS',
@@ -93,7 +93,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/url-shortener-microservice-rodando-no-Replit.png',
 		description: 'FreeCodeCamp.org',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'File Metadata Uploader',
@@ -101,7 +101,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/file-metadata-microservice-home-page.png',
 		description: 'Node-JS',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'JavaScript Assertions App',
@@ -109,7 +109,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/javaScript-assertions-study-freecodecamp.png',
 		description: 'Studing Assertions with Freecodecamp',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'Authentication and Socket.io',
@@ -117,7 +117,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/nodejs-authentication-studyapp.png',
 		description: 'Node-JS - Freecodecamp',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'Exercise Tracker',
@@ -125,7 +125,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/exercice-tracker-microservice-home-page-comp-page.png',
 		description: 'Node-JS and MongoDB',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'Local Library - Express-JS',
@@ -133,7 +133,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/local-library-icon.png',
 		description: '',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'Music Database - Express-JS',
@@ -141,7 +141,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/music-db-icon.png',
 		description: '',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'Data Base with NodeJS',
@@ -149,7 +149,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/database-node-icon.png',
 		description: '',
-		functions: '',
+		tags: '',
 	},
 	{
 		title: 'Request Header Parser',
@@ -157,7 +157,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/header-parser-microservice-rodando-no-Replit.png',
 		description: 'Node-JS',
-		functions: '',
+		tags: '',
 	},
 ];
 

@@ -213,6 +213,14 @@ main section#projects  .info-content p {
 	line-height: 1.2;
 }
 
+main section#projects .info-content .tag {
+	display: block;
+	text-align: center;
+	background-color: #21a121ad;
+	color: #120702; /*#f7622b;*/
+	padding: 0.5px;
+}
+
 @media only screen and (min-width: 700px) {
 	main section#projects .project-item {
 		grid-template-columns: 0.8fr 1.2fr;

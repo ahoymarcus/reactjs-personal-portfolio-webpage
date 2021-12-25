@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 
 
-const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, functionalities }) => {
+const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, tags }) => {
 	const [ active, setActive ] = useState('description');
 		
 	
@@ -26,16 +26,18 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, f
 				<div className="info-content active">
 					<h4>Description</h4>
 					<p>
-						I'm baby wolf pickled schlitz try-hard normcore marfa man bun mumblecore vice pop-up XOXO lomo kombucha glossier bicycle rights. Umami kinfolk salvia jean shorts. 
+						{description} 
 					</p>
 				</div>
 			);
-		} else if (active === 'functions') {
+		} else if (active === 'tags') {
 			return (
 				<div className="info-content">
-					<h4>Functionalities</h4>
+					<h4>Tags</h4>
 					<p>
-						Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth crucifix offal deep v hella biodiesel. Church-key listicle polaroid put a bird on it.
+						{tags.map((tag, index) => {
+							return <span className="tag" >{tag} </span>;
+						})}
 					</p>
 				</div>
 			);
@@ -58,7 +60,7 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, f
 				<div className="btn-container">
 					<h4 className="tab-header" ><a target="_blank" href={href}>{title}</a></h4>
 					<button  onClick={() => handleClick('description')} className="tab-header btn" >description</button>
-					<button onClick={() => handleClick('functions')} className="tab-header btn" >functions</button>
+					<button onClick={() => handleClick('tags')} className="tab-header btn" >tags</button>
 				</div>			
 				{renderInfo()}
 			</article>
