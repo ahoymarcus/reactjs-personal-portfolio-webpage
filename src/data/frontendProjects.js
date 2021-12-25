@@ -5,7 +5,7 @@ export let frontendProjects = [
 		urlApp: 'https://reactjs-rocket-launches-app.netlify.app/',
 		image: '/images/frontend/reactjs-rocket-launches-app.png',
 		description: 'React-JS',
-		functionalities: 'UseContext and React-Router-Dom',
+		functions: 'UseContext and React-Router-Dom',
 	},
 	{
 		title: 'Shopping Cart App',
@@ -13,7 +13,7 @@ export let frontendProjects = [
 		urlApp: 'https://typescript-reactjs-shopping-cart-app.netlify.app/',
 		image: '/images/frontend/typescript-reactjs-shopping-cart-app.png',
 		description: 'React-JS and TypeScript',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Shopping Cart App',
@@ -21,7 +21,7 @@ export let frontendProjects = [
 		urlApp: 'https://reactjs-shopping-cart-with-usereducer-app.netlify.app/',
 		image: '/images/frontend/reactjs-shopping-cart-with-usereducer-app.png',
 		description: 'React-JS',
-		functionalities: 'UseContext and UseReducer',
+		functions: 'UseContext and UseReducer',
 	},
 	{
 		title: 'Cocktail Drinks App',
@@ -29,7 +29,7 @@ export let frontendProjects = [
 		urlApp: 'https://reactjs-cocktails-page-with-router-app.netlify.app/',
 		image: '/images/frontend/reactjs-cocktails-with-router-app.png',
 		description: 'React-JS',
-		functionalities: 'UseContext and React-router-dom',
+		functions: 'UseContext and React-router-dom',
 	},
 	{
 		title: 'Quiz and Test Game App',
@@ -37,7 +37,7 @@ export let frontendProjects = [
 		urlApp:  'https://typescript-reactjs-quiz-app.netlify.app/',
 		image: '/images/frontend/typescript-reactjs-quiz-app.png',
 		description: 'React-JS and TypeScript',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Grocery Bud App',
@@ -45,7 +45,7 @@ export let frontendProjects = [
 		urlApp: 'https://reactjs-grocery-bud-app.netlify.app/',
 		image: '/images/frontend/reactjs-grocery-bud-app.png',
 		description: 'React-JS',
-		functionalities: 'LocalStorage',
+		functions: 'LocalStorage',
 	},
 	{
 		title: 'Submenus Components App',
@@ -53,7 +53,7 @@ export let frontendProjects = [
 		urlApp: 'https://reactjs-stripe-submenus-components-app.netlify.app/',
 		image: '/images/frontend/reactjs-stripe-submenus-components-app.png',
 		description: 'React-JS',
-		functionalities: 'UseRef e UseContext Hooks',
+		functions: 'UseRef e UseContext Hooks',
 	},
 	{
 		title: 'Sidebar Study App',
@@ -61,7 +61,7 @@ export let frontendProjects = [
 		urlApp: 'https://reactjs-sidebar-component-with-usecontext-hook.netlify.app/',
 		image: '/images/frontend/reactjs-sidebar-component-with-usecontext.png',
 		description: 'React-JS',
-		functionalities: 'UseContext Hook',
+		functions: 'UseContext Hook',
 	},
 	{
 		title: 'Navbar Study App',
@@ -69,7 +69,7 @@ export let frontendProjects = [
 		urlApp: 'https://reactjs-navbar-component-with-useref-hook.netlify.app/',
 		image: '/images/frontend/reactjs-navbar-component-with-useref.png',
 		description: 'React-JS',
-		functionalities: 'UseRef Hook',
+		functions: 'UseRef Hook',
 	},
 	{
 		title: 'Color Generator App',
@@ -77,7 +77,7 @@ export let frontendProjects = [
 		urlApp: 'https://react-js-color-generator-app.netlify.app/',
 		image: '/images/frontend/reactjs-color-generator-app-02.png',
 		description: 'React-JS',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Tours Reviews App',
@@ -85,7 +85,7 @@ export let frontendProjects = [
 		urlApp: 'https://reactjs-tours-review-app.netlify.app/',
 		image: '/images/frontend/reactjs-tours-review-app.png',
 		description: 'with API data and React-JS',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Cinema Developer App',
@@ -93,7 +93,7 @@ export let frontendProjects = [
 		urlApp: 'https://github.com/ahoymarcus/reactjs-dev-cinemapp',
 		image: '/images/frontend/reactjs-cinema-app.png',
 		description: 'React-JS',
-		functionalities: 'API data',
+		functions: 'API data',
 	},
 	{
 		title: 'Slider Component App',
@@ -101,7 +101,7 @@ export let frontendProjects = [
 		urlApp: 'https://reactjs-slider-component-app.netlify.app/',
 		image: '/images/frontend/reactjs-slider-component-app.png',
 		description: 'React-JS',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Interactive Menu App',
@@ -109,7 +109,7 @@ export let frontendProjects = [
 		urlApp: 'https://reactjs-interactive-menu-app.netlify.app/',
 		image: '/images/frontend/reactjs-interactive-menu-app.png',
 		description: 'React-JS',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Courses List App',
@@ -117,7 +117,7 @@ export let frontendProjects = [
 		urlApp: 'https://github.com/ahoymarcus/basic-angular8-dio',
 		image: '/images/frontend/angular-8-course-list-app-02.png',
 		description: 'Angular 8, Typescript and Backend Node-JS',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Birthday Reminder App',
@@ -125,7 +125,7 @@ export let frontendProjects = [
 		urlApp: 'https://ahoymarcus-reactjs-birthday-reminder.netlify.app/',
 		image: '/images/frontend/birthday-remainder-project-02.png',
 		description: 'React-JS',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: '25 + 5 Clock App',
@@ -133,7 +133,7 @@ export let frontendProjects = [
 		urlApp: 'https://codepen.io/ahoymarcus/pen/xxqvVLw?editors=0010"',
 		image: '/images/frontend/pomodoro-clock-icon.png',
 		description: 'React-JS',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Pocket Calculator App',
@@ -141,7 +141,7 @@ export let frontendProjects = [
 		urlApp: 'https://codepen.io/ahoymarcus/pen/PopNrRB?editors=0010',
 		image: '/images/frontend/calculator-icon-squared.png',
 		description: 'React-JS',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Markdown Prviewer App',
@@ -149,7 +149,7 @@ export let frontendProjects = [
 		urlApp: 'https://codepen.io/ahoymarcus/pen/OJpNWZr',
 		image: '/images/frontend/markdown-previewer-icon.png',
 		description: 'React-JS',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Random Quote Machine App',
@@ -157,7 +157,7 @@ export let frontendProjects = [
 		urlApp: 'https://codepen.io/ahoymarcus/pen/XWMXqRE',
 		image: '/images/frontend/quotes-machine-icon.png',
 		description: 'React-JS',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Covid-19 Cases App',
@@ -165,7 +165,7 @@ export let frontendProjects = [
 		urlApp: 'https://github.com/ahoymarcus/covid19-reactapp',
 		image: '/images/frontend/covid-app-icon.png',
 		description: 'React-JS',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'CriptoCoins History App',
@@ -173,7 +173,7 @@ export let frontendProjects = [
 		urlApp: 'https://api-criptomoedas-javascript.netlify.app/',
 		image: '/images/frontend/cripocoins-icon.png',
 		description: 'React-JS',
-		functionalities: '',
+		functions: '',
 	},
 ];
 

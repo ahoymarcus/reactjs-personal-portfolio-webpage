@@ -5,7 +5,7 @@ export let webdesignProjects = [
 		urlApp: 'https://musica-erudita.netlify.app/',
 		image: '/images/web-design/mus-erudita-icon-bigger-page.png',
 		description: '',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Tribure Page',
@@ -13,7 +13,7 @@ export let webdesignProjects = [
 		urlApp: 'https://tribute-page-bach-freecodecamp.netlify.app/',
 		image: '/images/web-design/tribure-page-icon-complete-page.png',
 		description: '',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Technical Documentation Clone Page',
@@ -21,7 +21,7 @@ export let webdesignProjects = [
 		urlApp: 'https://technical-mongodb-mockup-doc-page-freecodecamp.netlify.app/',
 		image: '/images/web-design/technical-page-icon-bigger-page.png',
 		description: '',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Product Landing Page',
@@ -29,7 +29,7 @@ export let webdesignProjects = [
 		urlApp: 'https://product-landing-page-freecodecamp-org.netlify.app/',
 		image: '/images/web-design/product-page-icon-bigger-page.png',
 		description: '',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Galeria de Imagens',
@@ -37,7 +37,7 @@ export let webdesignProjects = [
 		urlApp: 'https://css3-com-grid-system-transform-property.netlify.com/coro-galeria-de-imagens.html',
 		image: '/images/web-design/galeriaimgs-icon-bigger-page.png',
 		description: '',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Clone NetFlix',
@@ -45,7 +45,7 @@ export let webdesignProjects = [
 		urlApp: 'https://clone-netflix-com-dio.netlify.app/',
 		image: '/images/web-design/clone-netflix-icon.png',
 		description: '',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Survey Form',
@@ -53,7 +53,7 @@ export let webdesignProjects = [
 		urlApp: 'https://buil-a-survey-form-freecodecamp.netlify.app/',
 		image: '/images/web-design/form-page-icon.png',
 		description: '',
-		functionalities: '',
+		functions: '',
 	},
 	{
 		title: 'Clone Instagram',
@@ -61,7 +61,7 @@ export let webdesignProjects = [
 		urlApp: 'https://flexbox-instagram-com-dio.netlify.app/',
 		image: '/images/web-design/clone-instagram-icon.png',
 		description: '',
-		functionalities: '',
+		functions: '',
 	},
 ];
 
