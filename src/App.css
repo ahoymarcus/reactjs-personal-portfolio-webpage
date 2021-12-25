@@ -286,12 +286,12 @@ main section#other-projects .other-projects {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 1.5rem;
-	margin-bottom: 3.5rem;
+	margin-bottom: 1.5rem;
 }
 
 main section#other-projects .other-projects-img-container {
 	width: 350px;
-	height: 400px;
+	height: 450px;
 	border-radius: 5px;
 	/*margin: 0 auto;*/
 	
@@ -303,7 +303,7 @@ main section#other-projects .other-project-img {
 	width: 100%;
 	height: 100%;
 	border-radius: 5px;
-	object-fit: cover;
+	/*object-fit: cover;*/
 }
 
 main section#other-projects .other-projects-info {

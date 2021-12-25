@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+//import { webdesignProjects } from '../data/webdesignProjects';
 
 
 
@@ -12,19 +13,34 @@ const OtherProjects = ({ otherProjects }) => {
 	//console.log(tags);
 	
 	const checkNumber = (number) => {
-		if (index > otherProjects.length - 1) {
-			return 0;
-		} 
-		if (index < 0) {
-			return otherProjects.length -1;
-		}
-	};
+    if (number > otherProjects.length - 1) {
+      return 0;
+    }
+    if (number < 0) {
+      return otherProjects.length - 1;
+    }
+    return number;
+  };
+	
+	
+	const nextProject = () => {
+    setIndex((index) => {
+      let newIndex = index + 1;
+      return checkNumber(newIndex);
+    });
+  };
+  const prevProject = () => {
+    setIndex((index) => {
+      let newIndex = index - 1;
+      return checkNumber(newIndex);
+    });
+  };
 	
 	
 	return (
 		<div className="other-projects">
 			<article className="other-projects-container">
-				<div class="other-projects-img-container">
+				<div className="other-projects-img-container">
 					<img src={image} alt={`projeto ${title}`} className="other-project-img" />
 				</div>	
 			</article>
@@ -43,6 +59,14 @@ const OtherProjects = ({ otherProjects }) => {
 				<div className="repositories">
 					<h6><a target="_blank" href={urlApp}>NetLify App</a></h6>
 					<h6><a target="_blank" href={urlRepository}>Github repository</a></h6>
+				</div>
+				<div className="btn-container">
+					<button className="prev-btn" onClick={prevProject}>
+						<FaChevronLeft />
+					</button>
+					<button className="next-btn" onClick={nextProject}>
+						<FaChevronRight />
+					</button>
 				</div>
 			</article>
 		</div>
