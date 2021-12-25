@@ -250,7 +250,7 @@ main section#projects .info-content .tag {
 /* Other Projects Section */
 main section#other-projects {
 	background-color: #e7e7b4;
-	color: #ffffffc7; 
+	color: #2f2a1a; 
 	padding: 2rem 3rem 4rem;
 }
 
@@ -268,7 +268,9 @@ main section#other-projects h3 {
 	text-align: center;
 }
 
-
+main section#other-projects .other-projects {
+	
+}
 
 
 

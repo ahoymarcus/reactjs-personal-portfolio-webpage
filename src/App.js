@@ -1,19 +1,25 @@
+import { useState } from 'react';
+
 // styles
 import './App.css'; 
 
 // components
 import Navbar from './components/Navbar';
 import ProjectList from './components/ProjectList';
+import OtherProjectsSlider from './components/OtherProjectsSlider';
 
 import { frontendProjects } from './data/frontendProjects';
 import { backendProjects } from './data/backendProjects';
-import { vanillajsProjects } from './data/vanillajsProjects';
-import { webdesingProjects } from './data/webdesingProjects';
+import { vanillaJSProjects } from './data/vanillaJSProjects';
+import { webdesignProjects } from './data/webdesignProjects';
 
 
 
 
 function App() {
+	const [ otherProjects, setOtherProjects ] = useState([...webdesignProjects, ...vanillaJSProjects]);
+	//console.log(otherProjects);
+	
 
 
   return (
@@ -46,7 +52,7 @@ function App() {
 				>
 					<h2>Other Projects</h2>
 					
-					{/* Novo componte slider */}
+					<OtherProjectsSlider otherProjects={otherProjects} />
 					
 					<h3>Vanilla JavaScript and Web Desing</h3>
 						
