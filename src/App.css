@@ -199,6 +199,7 @@ main section#projects .btn:hover {
 
 main section#projects .info-container {
 	max-height: 240px;
+	overflow: hidden;
 }
 
 main section#projects .info-content {

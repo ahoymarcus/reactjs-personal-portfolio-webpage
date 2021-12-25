@@ -4,7 +4,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/reactjs-rocket-launches-app',
 		urlApp: 'https://reactjs-rocket-launches-app.netlify.app/',
 		image: '/images/frontend/reactjs-rocket-launches-app.png',
-		description: 'Este React app foi escrito para ser cliente de uma API que por sua vez consome seua dados de outra API externa, limitando o serviço final a apenas 04 rotas',
+		description: 'Este React app foi escrito para ser cliente de uma API que por sua vez consome seua dados de outra API externa, limitando o serviço final a apenas 04 rotas.',
 		tags: ['React-JS', 'UseContext', 'React-Router-Dom', 'react-icons', 'styled-components', 'API REST'],
 	},
 	{
@@ -12,7 +12,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/typescript-reactjs-shopping-cart-app',
 		urlApp: 'https://typescript-reactjs-shopping-cart-app.netlify.app/',
 		image: '/images/frontend/typescript-reactjs-shopping-cart-app.png',
-		description: 'Projeto para criar um app que renderiza um mostruário de produtos a partir de dados requisitado de uma API externa. E além de apresentar os produtos, o app permite adicionar produtos ao carrinho de compra, enquanto controla a agregação dos valores dos itens sendo incluídos ou excluídos da seleção.',
+		description: 'Renderiza um mostruário de produtos a partir de dados requisitados de uma API externa. Apresenta os produtos, adiciona ao carrinho de compra, enquanto agrega os valores dos itens incluídos ou excluídos da seleção.',
 		tags: ['React-JS', 'react-query', 'styled-components', 'TypeScript', 'API REST'],
 	},
 	{
@@ -20,7 +20,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/reactjs-shopping-cart-with-reducer-app',
 		urlApp: 'https://reactjs-shopping-cart-with-usereducer-app.netlify.app/',
 		image: '/images/frontend/reactjs-shopping-cart-with-usereducer-app.png',
-		description: 'Em termos da funcionalidade mais avançada deste app, são usados os Hooks UseContext e UseReducer para controlar a passagem de valores entre as funções para a renderização e para a agregação dos valores do carrinho',
+		description: 'Como funcionalidade mais avançada este app usa os Hooks UseContext e UseReducer para controlar a passagem de valores entre as funções de renderização para a agregação dos valores do carrinho',
 		tags: ['React-JS', 'UseContext', 'UseReducer', 'API REST'],
 	},
 	{
@@ -28,7 +28,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/reactjs-cocktails-page-with-router-app',
 		urlApp: 'https://reactjs-cocktails-page-with-router-app.netlify.app/',
 		image: '/images/frontend/reactjs-cocktails-with-router-app.png',
-		description: 'O projeto consome dados de uma API pública sobre drinks e renderiza os dados na forma de um web site, com páginas diversas, além de uma página principal que é responsável tanto por renderizar os dados, quanto por controlar um formulário que permite filtrar o Fecth de drinks por nome.',
+		description: 'O app consome dados de uma API pública e renderiza os dados na forma de um web site, com páginas diversas. Ademais, o site permite fazer pesquisas por formuláro para buscar os drinks por nome.',
 		tags: ['React-JS', 'UseContext', 'React-router-dom', 'API REST'],
 	},
 	{
@@ -36,7 +36,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/typescript-reactjs-quiz-app',
 		urlApp:  'https://typescript-reactjs-quiz-app.netlify.app/',
 		image: '/images/frontend/typescript-reactjs-quiz-app.png',
-		description: 'Projeto que usa como dados de uma a API externa de Trivia para renderizar perguntas aos usuários por meio de uma aplicação com React-JS e TypeScript, enquanto controla todas as demais funcionalidades do jogo, como botão de inicialização do jogo, pontuação, próxima pergunta, entre outros.',
+		description: 'O app usa dados de uma a API externa de Trivia e apresenta perguntas aos usuários por meio de uma aplicação com React-JS e TypeScript, enquanto controla todas as demais funcionalidades.',
 		tags: ['React-JS', 'styled-components', 'TypeScript', 'API REST'],
 	},
 	{
@@ -52,7 +52,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/reactjs-stripe-submenus-component-app',
 		urlApp: 'https://reactjs-stripe-submenus-components-app.netlify.app/',
 		image: '/images/frontend/reactjs-stripe-submenus-components-app.png',
-		description: 'O projeto renderiza uma série de componentes de menu em um componente de Hero de uma página web, entre eles temos os componentes Navbar, Sidebar, Submenu, todos eles renderizados de forma condicionada dependendo da interação com o usuário.',
+		description: 'O app apresenta uma série de componentes de menu numa página de estudo, desde um componente de Hero até componentes de Navbar, Sidebar, Submenu, tudo de forma condicionada dependendo da interação com o usuário.',
 		tags: ['React-JS', 'UseRef', 'UseContext'],
 	},
 	{
@@ -60,7 +60,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/reactjs-sidebar-model-component-app',
 		urlApp: 'https://reactjs-sidebar-component-with-usecontext-hook.netlify.app/',
 		image: '/images/frontend/reactjs-sidebar-component-with-usecontext.png',
-		description: 'O projeto renderiza dois componentes, sendo o principal um componente de Sidebar. O outro é um Modal. Ambos são renderizados de forma condicional. De forma mais específica, o app se utiliza neste projeto do Hook UseContext para criar um contexto de escopo global.',
+		description: 'O app tem dois componentes, sendo o principal um Sidebar e o outro um Modal. De forma mais específica, o app se utiliza neste projeto do Hook UseContext para criar um contexto de escopo global.',
 		tags: ['React-JS', 'UseContext'],
 	},
 	{
@@ -68,7 +68,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/reactjs-with-useref-navbar-app',
 		urlApp: 'https://reactjs-navbar-component-with-useref-hook.netlify.app/',
 		image: '/images/frontend/reactjs-navbar-component-with-useref.png',
-		description: 'O projeto renderiza um componente de Navbar responsivo. De forma mais específica, o app se utiliza do Hook UseRef para buscar referência do componente de lista e assim definir dinamicamente seu tamanho em relação à propriedade Height de CSS.',
+		description: 'O app tem um componente de Navbar responsivo que se utiliza do Hook UseRef para buscar referência do componente de lista e assim definir dinamicamente seu tamanho em relação à propriedade Height de CSS.',
 		tags: ['React-JS', 'UseRef Hook', 'react-icons'],
 	},
 	{
@@ -76,7 +76,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/reactjs-color-generator-app',
 		urlApp: 'https://react-js-color-generator-app.netlify.app/',
 		image: '/images/frontend/reactjs-color-generator-app-02.png',
-		description: 'O app usa com a propriedade CSS de HSL (Hue, Saturation, Lightness), para a renderização de cores escolhidas pelo usuário. Ademais, usa-se a biblioteca Values.js para fazer a validação dos valores passados pelo formulário. Finalmente,  também se usa da API Clipboard para permitir a copia dos valores das cores renderizadas com o clique do botão do mouse.',
+		description: 'O app usa a propriedade CSS de HSL para renderizar cores. Usa a biblioteca Values.js para validar os valores das cores. Finalmente,  usa a API Clipboard para a copia dos valores das cores com o clique do botão do mouse.',
 		tags: ['React-JS', 'Values.js', 'API Clipboard'],
 	},
 	{
@@ -84,7 +84,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/reactjs-reviews-posts-app',
 		urlApp: 'https://reactjs-tours-review-app.netlify.app/',
 		image: '/images/frontend/reactjs-tours-review-app.png',
-		description: 'O app consome dados de um arquivo e renderiza estes dados na forma de cartões. Como funcionalidades, o App permite iterar pelas postagens com botões em ambas as direções, Next e Prev, além permitir que se traga uma postagem de forma randômica.',
+		description: 'O app consome dados de um arquivo e renderiza estes dados na forma de cartões. Permite também iterar pelas postagens com botões em ambas as direções, Next e Prev, etc...',
 		tags: ['React-JS'],
 	},
 	{
@@ -92,7 +92,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/reactjs-dev-cinemapp',
 		urlApp: 'https://github.com/ahoymarcus/reactjs-dev-cinemapp',
 		image: '/images/frontend/reactjs-cinema-app.png',
-		description: 'Trata-se de uma aplicação React-JS com funcionalidade para fazer requisição GET numa API de filmes e retornar uma lista para ser renderizada ao usuário. O usuário pelo realizar uma pesquisas por texto e ter renderizado as suas escolhas. As funcionalidades de frontend, contudo, ainda não estão todas finalizadas!',
+		description: 'Um app que faz requisição GET numa API de filmes e retorna para o usuário. O usuário pode fazer pesquisas por texto. Contudo, as funcionalidades de frontend, contudo, ainda não estão todas finalizadas!',
 		tags: ['React-JS', 'API REST'],
 	},
 	{
@@ -108,7 +108,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/reactjs-interactive-menu-app',
 		urlApp: 'https://reactjs-interactive-menu-app.netlify.app/',
 		image: '/images/frontend/reactjs-interactive-menu-app.png',
-		description: 'Projeto que cria toda uma página web interativa que consome dados de um arquivo para renderizar um menu de restaurante. Como funcionalidade destacada, temos botões que controlam em tempo real a renderização do menu de acordo com uma coleção de categorias tipo: Breakfast, Lunch, Shakes, etc...',
+		description: 'Um app que consome dados de um arquivo para renderizar um menu de restaurante. Tem botões que controlam a renderização do menu de acordo com uma coleção de categorias tipo: Breakfast, Lunch, Shakes, etc...',
 		tags: ['React-JS'],
 	},
 	{
@@ -124,7 +124,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/reactjs-birthday-reminder',
 		urlApp: 'https://ahoymarcus-reactjs-birthday-reminder.netlify.app/',
 		image: '/images/frontend/birthday-remainder-project-02.png',
-		description: 'O projeto consome dados de um arquivo e renderiza os dados num cartão apresentando dados pessoais, especialmente idade e data de aniversário. Tendo sido adicionado ao projeto a funcionalidade de selecionar apenas os dados de aniversariantes do dia.',
+		description: 'O app consome dados de um arquivo e os renderiza num cartão. Permite ainda a seleção dos dados de aniversariantes do dia.',
 		tags: ['React-JS'],
 	},
 	{
@@ -164,7 +164,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/covid19-reactapp',
 		urlApp: 'https://github.com/ahoymarcus/covid19-reactapp',
 		image: '/images/frontend/covid-app-icon.png',
-		description: 'Um Progressive Web Application (PWA) para ser executado a partir do browser e funcionar como um aplicativo contendo funcionalidade próprias de aplicativos nativos. Tudo isso "rápido e fácil, sem precisar subir para a Play Store ou App Store". Projeto da plataforma de ensino Digital Innovation One.',
+		description: 'Um PWA completo que permite executar o app como uma aplicação nativa, tudo isoo sem precisar de plugins da Play Store ou da App Store. Projeto da plataforma de ensino Digital Innovation One.',
 		tags: ['React-JS', 'styled-components', 'material-ui'],
 	},
 	{
