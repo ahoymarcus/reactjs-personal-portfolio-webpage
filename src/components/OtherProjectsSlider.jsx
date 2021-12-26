@@ -38,37 +38,39 @@ const OtherProjects = ({ otherProjects }) => {
 	
 	
 	return (
-		<div className="other-projects">
-			<article className="other-projects-container">
-				<div className="other-projects-img-container">
+		<div >
+			<div className="btn-container">
+				<button className="prev-btn" onClick={prevProject}>
+					<FaChevronLeft />
+				</button>
+				<button className="next-btn" onClick={nextProject}>
+					<FaChevronRight />
+				</button>
+			</div>
+			
+			<div className="other-projects">	
+				<article className="other-projects-img-container">
 					<img src={image} alt={`projeto ${title}`} className="other-project-img" />
-				</div>	
-			</article>
-			<article className="other-projects-info">
-				<h4>{title}</h4>
-				<p>
-					{description}
-				</p>
-				<div className="tags">
-					<ul>
-						{tags.map((tag, index) => {
-							return <p key={index}>#{tag}</p>;
-						})}
-					</ul>
-				</div>
-				<div className="repositories">
-					<h6><a target="_blank" href={urlApp}>NetLify App</a></h6>
-					<h6><a target="_blank" href={urlRepository}>Github repository</a></h6>
-				</div>
-				<div className="btn-container">
-					<button className="prev-btn" onClick={prevProject}>
-						<FaChevronLeft />
-					</button>
-					<button className="next-btn" onClick={nextProject}>
-						<FaChevronRight />
-					</button>
-				</div>
-			</article>
+				</article>
+				<article className="other-projects-info">
+					<h4>{title}</h4>
+					<p>
+						{description}
+					</p>
+					<div className="tags">
+						<ul>
+							{tags.map((tag, index) => {
+								return <p key={index}>#{tag}</p>;
+							})}
+						</ul>
+					</div>
+					<div className="repositories">
+						<h6><a target="_blank" href={urlApp}>NetLify App</a></h6>
+						<h6><a target="_blank" href={urlRepository}>Github repository</a></h6>
+					</div>
+					
+				</article>
+			</div>
 		</div>
 	);
 };

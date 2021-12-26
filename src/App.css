@@ -126,7 +126,7 @@ main section#projects h3 {
 main section#projects .projects-container-grid {
 	display: grid; 
 	grid-template-columns: minmax(320px, 1fr);
-	grid-gap: 4rem; 
+	grid-gap: 5rem 4rem; 
 	/*width: 100%; */
 }
 
@@ -148,17 +148,12 @@ main section#projects .info-container {
 	border-radius: 8px 8px 0 0;
 }
 
-main section#projects .btn-container{
-	
-	
-	border-radius: 8px;
-}
-
 main section#projects .btn-container {
 	display: grid;
 	grid-template-columns: 1fr 0.5fr 0.5fr;
 	padding: 0.4rem 0.3rem 1rem 0.3rem;
 	max-height: 63.303px;
+	border-radius: 8px;
 	overflow: hidden;
 }
 
@@ -284,18 +279,15 @@ main section#other-projects h6 {
 
 main section#other-projects .other-projects {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-gap: 1.5rem;
 	margin-bottom: 1.5rem;
 }
 
 main section#other-projects .other-projects-img-container {
-	width: 350px;
+	width: 400px;
 	height: 450px;
 	border-radius: 5px;
-	/*margin: 0 auto;*/
-	
-	
 }
 
 main section#other-projects .other-project-img {
@@ -317,6 +309,56 @@ main section#other-projects .repositories {
 	position: relative;
 	right: 115px;
 }
+
+
+main section#other-projects .btn-container {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+main section#other-projects .prev-btn, main section#other-projects .next-btn {
+	background-color: #ad641914; /*#ad6419; #e7e7b4;*/
+	font-size: 25px;
+	width: 60px;
+	padding: 8px 6px 6px;
+	border: none;
+	
+}
+
+main section#other-projects .prev-btn {
+	border-radius: 3px 0  0 3px;
+}
+main section#other-projects .next-btn {
+	border-radius: 0px 3px  3px 0;
+}
+
+@media only screen and (min-width: 600px) {
+	main section#other-projects .repositories {
+		right: 0px;
+	}
+	main section#other-projects .other-projects {
+		grid-template-columns: 0.5fr 1.3fr;
+	}
+	main section#other-projects .other-projects-img-container {
+		width: 300px;
+		height: 350px;
+	}
+}
+
+@media only screen and (min-width: 860px) {
+	main section#other-projects .repositories {
+		right: 120px;
+	}
+	main section#other-projects .other-projects {
+		grid-template-columns: 0.8fr 1.2fr;
+	}
+	
+	main section#other-projects .other-projects-img-container {
+		width: 400px;
+		height: 450px;
+	}
+}
+
 
 
 

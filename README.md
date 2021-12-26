@@ -8,11 +8,9 @@ Aplicação React-JS que renderiza e controla meus principais projetos de trabal
 
 <br />
 
-R:
+Repository:
 
-- [API na Heroku]()
-
-- [App em Netlify]()
+- [App em Netlify](https://reactjs-personal-portfolio-webpage.netlify.app/)
 
 
 
