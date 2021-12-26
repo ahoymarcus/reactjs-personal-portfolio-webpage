@@ -127,7 +127,7 @@ main section#projects h3 {
 
 main section#projects .projects-container-grid {
 	display: grid; 
-	grid-template-columns: minmax(320px, 1fr);
+	grid-template-columns: minmax(335px, 1fr);
 	grid-gap: 5.2rem 4.3rem; 
 	/*width: 100%; */
 }
@@ -154,7 +154,10 @@ main section#projects .btn-container {
 	display: grid;
 	grid-template-columns: 1fr 0.5fr 0.5fr;
 	grid-gap: 0.5rem;
-	padding: 0.4rem 0.3rem 1rem 0.3rem;
+	
+	/*padding: 0.4rem 0.3rem 1rem 0.3rem;*/
+	padding: 0.4rem 0rem 1rem 0rem;
+	
 	max-height: 63.303px;
 	border-radius: 8px;
 	overflow: hidden;
@@ -241,7 +244,7 @@ main section#projects .info-content .tag {
 	}
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1117px) {
 	main section#projects .projects-container-grid {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
