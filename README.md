@@ -3,30 +3,15 @@
 
 <br />
 
-Aplicação React-JS que renderiza e controla meus principais projetos de trabalho.
+Aplicação React-JS que renderiza e controla meus principais projetos de trabalho em um Portifolio Web App.
 
 
 <br />
 
 Repository:
 
-- [App em Netlify](https://reactjs-personal-portfolio-webpage.netlify.app/)
+- [Portifolio Web App na Netlify](https://reactjs-personal-portfolio-webpage.netlify.app/)
 
-
-
-<br />
-
-### A:
-
-![Imagem da resposta de uma rota da api](/public/images/)
-
-
-<br />
-
-
-### I:  
-
-![Imagem da resposta de uma rota da api](/public/images/)
 
 
 

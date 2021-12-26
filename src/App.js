@@ -64,6 +64,7 @@ function App() {
 						<p>How do you take your coffee?</p>
 					</div>
 					<div className="contact-links">
+						<a id="profile-link" target="_blank" href="https://www.linkedin.com/in/marcus-vinicius-richa-183104199/"><i className="fa fa-github" aria-hidden="true"></i> Linkedin</a>
 						<a id="profile-link" target="_blank" href="https://github.com/ahoymarcus"><i className="fa fa-github" aria-hidden="true"></i> GitHub</a>
 						<a id="profile-link" target="_blank" href="https://www.freecodecamp.org/ahoymarcus"><i className="fa fa-free-code-camp" aria-hidden="true"></i>FreeCodeCamp</a>
 						<a id="profile-link" target="_blank" href="https://web.digitalinnovation.one/home"><i className=""></i>Digital Innovation One</a>
