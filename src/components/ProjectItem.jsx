@@ -4,7 +4,10 @@ import { useState } from 'react';
 
 const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, tags }) => {
 	const [ active, setActive ] = useState('description');
+	const [ descBtnText, setDescBtnText ] = useState(' show more');
+	const [ descText, setDescText ] = useState(description.slice(0, 130) + '...');
 		
+	
 	
 	let href;
 	if (type === 'frontend') {
@@ -12,36 +15,11 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, t
 	} else if (type === 'backend') {
 		href = urlRepository;
 	}
-	
+		
 	
 	const handleClick = (btnInfo) => {
 		setActive(btnInfo);
 	};
-	
-	const handleMouseEnter = (e) => {
-		let infoContent = e.target;
-		let infoContainer = e.target.parentElement;
-		console.log(infoContainer);
-		
-		// yellow - 
-		// lighter: '#c7c770'; darker: '#74741f'
-		infoContent.style.backgroundColor = '#74741f';
-		
-		infoContainer.classList.add('big');
-		
-		e.stopPropagation();
-	};
-	const handleMouseLeave = (e) => {
-		let infoContent = e.target;
-		let infoContainer = e.target.parentElement;
-		console.log(infoContainer);
-		
-		infoContent.style.backgroundColor = '#e3d6d647';
-		
-		infoContainer.classList.remove('big');
-	};
-	
-	
 	
 	const renderInfo = () => {
 		if (active === 'description') {
@@ -49,7 +27,10 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, t
 				<div className="info-content">
 					<h4>Description</h4>
 					<p>
-						{description} 
+						{descText} 
+						<button onClick={toggleBtnText} className="btn-toggle-description" >
+							{descBtnText}
+						</button>
 					</p>
 				</div>
 			);
@@ -67,6 +48,16 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, t
 		}
 	};
 	
+	const toggleBtnText = () => {
+		if (descText === description) {
+			setDescText(description.slice(0, 130) + '...');
+			setDescBtnText(' Read More');
+		} else {
+			setDescText(description);
+			setDescBtnText(' Show Less');
+		}
+	};
+	
 	
 	
 	return (
@@ -78,8 +69,7 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, t
 			>
 				<img className="project-icon" src={image} alt={`Projeto ${title}`} />
 			</a>
-			<article className="info-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
-				
+			<article className="info-container">
 				<div className="btn-container">
 					<h4 className="tab-header" >
 						<a 

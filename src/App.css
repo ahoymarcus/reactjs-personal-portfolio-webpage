@@ -219,6 +219,14 @@ main section#projects  .info-content p {
 	line-height: 1.2;
 }
 
+main section#projects .btn-toggle-description {
+	font-size: 16px;
+	border: none;
+	background-color: transparent;
+	color: #f5e23a;
+	cursor: pointer;
+}
+
 main section#projects .info-content .tag {
 	display: block;
 	text-align: center;
