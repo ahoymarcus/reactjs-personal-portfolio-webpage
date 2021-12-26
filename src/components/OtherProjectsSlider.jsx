@@ -60,7 +60,7 @@ const OtherProjects = ({ otherProjects }) => {
 					<div className="tags">
 						<ul>
 							{tags.map((tag, index) => {
-								return <p key={index}>#{tag}</p>;
+								return <p key={index} style={{color: 'rgb(36 151 36)'}}>#{tag}</p>;
 							})}
 						</ul>
 					</div>

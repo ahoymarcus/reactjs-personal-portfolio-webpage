@@ -88,8 +88,7 @@ main #welcome-section {
 	/*clear: both;*/ 
 	display: flex; 
 	flex-direction:	column; 
-	justify-content: center; 
-	align-items: center; 
+	justify-content: center;  
 	width: 100%; 
 	height: 100vh; 
 	text-align: center;
@@ -98,9 +97,12 @@ main #welcome-section {
 }
 main #welcome-section h1 { 
 	font-size: 2em; 
+	margin-top: 10px;
 }
 main #welcome-section p { 
-	font-size: 1.4em; 
+	font-size: 1.4em;
+	text-align: center;
+	margin-top: 10px;	
 }
 
   
@@ -151,6 +153,7 @@ main section#projects .info-container {
 main section#projects .btn-container {
 	display: grid;
 	grid-template-columns: 1fr 0.5fr 0.5fr;
+	grid-gap: 0.5rem;
 	padding: 0.4rem 0.3rem 1rem 0.3rem;
 	max-height: 63.303px;
 	border-radius: 8px;
@@ -160,7 +163,6 @@ main section#projects .btn-container {
 main section#projects .tab-header {
 	color: #ffffffc7;
 	background-color: #9d929273; /*#e3d6d647; hsl(212, 33%, 89%);*/
-	
 	border: none;
 	text-transform: capitalize;
 	font-size: 1rem;

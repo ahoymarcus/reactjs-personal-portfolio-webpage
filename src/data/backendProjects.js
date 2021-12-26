@@ -116,7 +116,7 @@ export let backendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/advanced-nodejs-freecodecamp-studyapp',
 		urlApp: '',
 		image: '/images/backend/nodejs-authentication-studyapp.png',
-		description: 'Node-JS - Freecodecamp',
+		description: 'Estudo de algumas funções avançadas de Node-JS como parte da Certificação em Quality Assurance da Freecodecamp.org em desenvolvimento backend com Node e Express-JS avançado.',
 		tags: ['Express-JS', 'Chai', 'Mocha'],
 	},
 	{

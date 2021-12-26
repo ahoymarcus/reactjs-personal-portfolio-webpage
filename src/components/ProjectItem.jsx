@@ -19,16 +19,24 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, t
 	};
 	
 	const handleMouseEnter = (e) => {
-		let element = e.target.parentElement;
-		console.log(element);
+		let infoContent = e.target;
+		let infoContainer = e.target.parentElement;
+		console.log(infoContainer);
 		
-		element.classList.add('big');
+		// yellow - 
+		// lighter: '#c7c770'; darker: '#74741f'
+		infoContent.style.backgroundColor = '#74741f';
+		
+		infoContainer.classList.add('big');
 	};
 	const handleMouseLeave = (e) => {
-		let element = e.target.parentElement;
-		console.log(element);
+		let infoContent = e.target;
+		let infoContainer = e.target.parentElement;
+		console.log(infoContainer);
 		
-		element.classList.remove('big');
+		infoContent.style.backgroundColor = '#e3d6d647';
+		
+		infoContainer.classList.remove('big');
 	};
 	
 	
@@ -71,9 +79,26 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, t
 			<article className="info-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
 				
 				<div className="btn-container">
-					<h4 className="tab-header" ><a target="_blank" href={href}>{title}</a></h4>
-					<button  onClick={() => handleClick('description')} className="tab-header btn" >description</button>
-					<button onClick={() => handleClick('tags')} className="tab-header btn" >tags</button>
+					<h4 className="tab-header" >
+						<a 
+							target="_blank" 
+							href={href}
+						>
+							{title}
+						</a>
+					</h4>
+					<button  
+						onClick={() => handleClick('description')} 
+						className="tab-header btn" 
+						>
+							description
+						</button>
+					<button 
+						onClick={() => handleClick('tags')}
+						className="tab-header btn" 
+					>
+						tags
+					</button>
 				</div>			
 				{renderInfo()}
 			</article>
