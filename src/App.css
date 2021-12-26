@@ -108,7 +108,7 @@ main #welcome-section p {
 /* Projects Section */	
 main section#projects { 
 	color: #ffffffc7; 
-	padding: 4rem 4rem;
+	padding: 5rem 3rem;
 }
 
 main section#projects .projects { 
@@ -126,7 +126,7 @@ main section#projects h3 {
 main section#projects .projects-container-grid {
 	display: grid; 
 	grid-template-columns: minmax(320px, 1fr);
-	grid-gap: 5rem 4rem; 
+	grid-gap: 5.2rem 4.3rem; 
 	/*width: 100%; */
 }
 
@@ -193,7 +193,12 @@ main section#projects .btn:hover {
 
 
 main section#projects .info-container {
-	max-height: 240px;
+	max-height: 260px;
+	overflow: hidden;
+}
+
+main section#projects .info-container:hover {
+	max-height: 290px;
 	overflow: hidden;
 }
 

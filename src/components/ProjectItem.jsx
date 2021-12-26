@@ -18,12 +18,25 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, t
 		setActive(btnInfo);
 	};
 	
+	const handleMouseEnter = (e) => {
+		let element = e.target.parentElement;
+		console.log(element);
+		
+		element.classList.add('big');
+	};
+	const handleMouseLeave = (e) => {
+		let element = e.target.parentElement;
+		console.log(element);
+		
+		element.classList.remove('big');
+	};
+	
 	
 	
 	const renderInfo = () => {
 		if (active === 'description') {
 			return (
-				<div className="info-content active">
+				<div className="info-content">
 					<h4>Description</h4>
 					<p>
 						{description} 
@@ -55,7 +68,7 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, t
 			>
 				<img className="project-icon" src={image} alt={`Projeto ${title}`} />
 			</a>
-			<article className="info-container">
+			<article className="info-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
 				
 				<div className="btn-container">
 					<h4 className="tab-header" ><a target="_blank" href={href}>{title}</a></h4>

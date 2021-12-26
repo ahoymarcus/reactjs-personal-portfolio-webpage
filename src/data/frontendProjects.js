@@ -32,7 +32,7 @@ export let frontendProjects = [
 		tags: ['React-JS', 'UseContext', 'React-router-dom', 'API REST'],
 	},
 	{
-		title: 'Quiz and Test Game App',
+		title: 'Quiz Game App',
 		urlRepository: 'https://github.com/ahoymarcus/typescript-reactjs-quiz-app',
 		urlApp:  'https://typescript-reactjs-quiz-app.netlify.app/',
 		image: '/images/frontend/typescript-reactjs-quiz-app.png',
@@ -168,7 +168,7 @@ export let frontendProjects = [
 		tags: ['React-JS', 'styled-components', 'material-ui'],
 	},
 	{
-		title: 'CriptoCoins History App',
+		title: 'CriptoCoins App',
 		urlRepository: '',
 		urlApp: 'https://api-criptomoedas-javascript.netlify.app/',
 		image: '/images/frontend/cripocoins-icon.png',
