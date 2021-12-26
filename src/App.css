@@ -250,8 +250,7 @@ main section#projects .info-content .tag {
 }
 
 
-
-@media only screen and (min-width: 1260px) {
+@media only screen and (min-width: 1355px) {
 	main section#projects {  
 		padding: 5rem 5rem;
 	}
