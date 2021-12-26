@@ -234,14 +234,14 @@ main section#projects .info-content .tag {
 	}
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 985px) {
 	main section#projects {  
-		padding: 5rem 4.5rem;
+		padding: 5rem 6.3rem;
 	}
 	
 	main section#projects .projects-container-grid {
 		grid-template-columns: 1fr 1fr;
-		grid-gap: 5.2rem 5rem;
+		grid-gap: 5.2rem 6rem;
 	}
 	main section#projects .project-item {
 		grid-template-columns: 1fr;
@@ -252,11 +252,11 @@ main section#projects .info-content .tag {
 
 @media only screen and (min-width: 1355px) {
 	main section#projects {  
-		padding: 5rem 5rem;
+		padding: 5rem 6.5rem;
 	}
 	main section#projects .projects-container-grid {
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 6rem 6rem;
+		grid-gap: 6rem 6.3rem;
 	}
 }
 

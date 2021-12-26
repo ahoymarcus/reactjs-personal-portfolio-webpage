@@ -28,6 +28,8 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, t
 		infoContent.style.backgroundColor = '#74741f';
 		
 		infoContainer.classList.add('big');
+		
+		e.stopPropagation();
 	};
 	const handleMouseLeave = (e) => {
 		let infoContent = e.target;
