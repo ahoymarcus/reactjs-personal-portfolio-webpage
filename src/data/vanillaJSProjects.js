@@ -108,8 +108,8 @@ export let vanillaJSProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/html-javascript-genius-gameapp-dio',
 		urlApp: 'Lorem Ipsum',
 		image: '/images/vanilla-js/genius-gameapp-html-css-grid-e-Javascript.png',
-		description: 'Lorem Ipsum',
-		tags: ['HTML, CSS Grid e Javascript'],
+		description: 'Projeto orientado pela professora Gaberiela Pinheiro da Digital Innovation One para recriar o jogo Genius utilizando apenas HTML, CSS e Javascript introdutório.',
+		tags: ['HTML', 'CSS Grid', 'Javascript'],
 	},
 	{
 		title: 'Jogo da Cobrinha',

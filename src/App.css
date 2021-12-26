@@ -317,7 +317,7 @@ main section#other-projects .btn-container {
 }
 
 main section#other-projects .prev-btn, main section#other-projects .next-btn {
-	background-color: #ad641914; /*#ad6419; #e7e7b4;*/
+	background-color: #b97f4414; /*#ad6419; #e7e7b4;*/
 	font-size: 25px;
 	width: 60px;
 	padding: 8px 6px 6px;
@@ -398,11 +398,18 @@ main section#contact .contact-links a {
 }
 
 
-/*MEDIA QUERY*/
-@media only screen and (min-width: 840px) {
-	main section#contact .contact-links {
+@media only screen and (max-width: 463px) {
+	main section#contact .contact-links-container {
+		margin: 25px 0;
+	}
+}
+
+@media only screen and (min-width: 820px) {
+	main section#contact .contact-links-container {
+		display: flex;
 		flex-direction: row;
-		justify-content: space-evenly; align-items: baseline;
+		justify-content: space-evenly; 
+		align-items: baseline;
 	}
 }
 
