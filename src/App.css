@@ -215,6 +215,7 @@ main section#projects .info-content {
 }
 
 main section#projects  .info-content p {
+	color: #28280e;
 	font-size: 1rem;
 	line-height: 1.2;
 }

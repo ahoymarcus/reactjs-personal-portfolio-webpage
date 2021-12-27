@@ -29,7 +29,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/store-api-icon-big.png',
 		description: 'A API permite consultas de maneira dinâmica através da passagem de parâmetros ou operadores de comparação, por exemplo, a partir dos seus campos, como nome, preço ou companhia, etc...',
-		tags: ['Express-JS'],
+		tags: ['Express-JS', 'dotenv', 'mongoose'],
 	},
 	{
 		title: 'JWT Exercise Studyapp',
@@ -37,7 +37,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/jwt-basics-studyapp-freecodecamp.org.png',
 		description: 'Uma aplicação de estudo para treinar o padrão de autenticação JSON Web Token (JWT), uma importante parte dentro do desenvolvimento de aplicações web quanto ao quesito de segurança.',
-		tags: ['Node-JS'],
+		tags: ['Node-JS', 'JWT', 'express-async-errors', 'dotenv', 'mongoose'],
 	},
 	{
 		title: 'API with Typescript',
@@ -45,7 +45,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/rest-expressjs-typescript-dio.png',
 		description: 'O app coloca em prática os conceitos trazidos no curso - Explorando o Estilo Arquitetural REST com Node.js',
-		tags: ['Node-JS'],
+		tags: ['Express-JS', 'Typescript'],
 	},
 	{
 		title: 'API Serverless',
@@ -109,7 +109,7 @@ export let backendProjects = [
 		urlApp: '',
 		image: '/images/backend/javaScript-assertions-study-freecodecamp.png',
 		description: 'Estudo de testes com o Node JS utilizando suas asserções e também módulos de terceiros. É o primeiro estudo dentro da Certificação em Quality Assurance da Freecodecamp.org em desenvolvimento backend com Node e Express-JS avançado.',
-		tags: ['Assertions'],
+		tags: ['Express-JS', 'Node-JS Assertions', 'Chai'],
 	},
 	{
 		title: 'Authentication and Socket.io',
