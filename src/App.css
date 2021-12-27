@@ -232,7 +232,7 @@ main section#projects .info-content .tag {
 	display: block;
 	text-align: center;
 	background-color: #21a121ad;
-	color: #120702; /*#f7622b;*/
+	color: #f5eeda; /*#120702; #f7622b;*/
 	padding: 0.5px;
 }
 
