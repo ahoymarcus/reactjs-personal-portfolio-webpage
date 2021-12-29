@@ -12,7 +12,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/redux-reactjs-shopping-cart',
 		urlApp: 'https://redux-axios-reactjs-shopping-cart.netlify.app/',
 		image: '/images/frontend/redux-reactjs-shopping-cart-01.png',
-		description: 'O App consome de uma API pública de produtos de loja e renderiza uma vitrine. Como funcionalidades especiais, o app utiliza Redux para gerenciar o estado geral da aplicação e React-router-dom para criar um sistema de roteamento de páginas no frontend. Finalmente usa Axios para requisições.',
+		description: 'O App busca de API pública de produtos e renderiza uma vitrine. Como funcionalidades especiais, ele usa Redux para gerenciar o estado geral da aplicação e React-router-dom para criar um sistema de roteamento de páginas no frontend.',
 		tags: ['React-JS', 'Redux', 'React-redux', 'React-Router-Dom', 'styled-components', 'API REST', 'Axios'],
 	},
 	{
