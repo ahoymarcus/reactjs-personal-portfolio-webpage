@@ -16,6 +16,14 @@ export let frontendProjects = [
 		tags: ['React-JS', 'Redux', 'React-redux', 'React-Router-Dom', 'styled-components', 'API REST', 'Axios'],
 	},
 	{
+		title: 'Redux-Toolkit Cinema App',
+		urlRepository: 'https://github.com/ahoymarcus/redux-toolkit-reactjs-cinema',
+		urlApp: 'https://redux-toolkit-reactjs-cinema.netlify.app/',
+		image: '/images/frontend/redux-toolkit-reactjs-cinema-01.png',
+		description: '',
+		tags: ['React-JS', 'Redux', 'React-redux', 'Reduxjs--Toolkit', 'React-Router-Dom', 'API REST', 'Axios', 'Node-SCSS', 'React-Slick'],
+	},
+	{
 		title: 'Shopping Cart App',
 		urlRepository: 'https://github.com/ahoymarcus/typescript-reactjs-shopping-cart-app',
 		urlApp: 'https://typescript-reactjs-shopping-cart-app.netlify.app/',
